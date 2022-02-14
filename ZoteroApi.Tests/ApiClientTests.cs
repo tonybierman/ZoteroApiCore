@@ -38,6 +38,8 @@ namespace ZoteroApi.Tests
         {
             ZoteroApiResponseMany<ZoteroCollection> cols = ZoteroCollectionsTestAsync().GetAwaiter().GetResult();
             Assert.IsTrue(cols.Data.Count > 0);
+            var m = cols.Data;
+            int i = 0;
         }
 
         async Task<ZoteroApiResponseMany<ZoteroCollection>> ZoteroCollectionsTestAsync()

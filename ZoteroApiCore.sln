@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoteroApiCore", "ZoteroApiC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoteroApi.Tests", "ZoteroApi.Tests\ZoteroApi.Tests.csproj", "{B7FA88D8-A3B5-4FE0-8E9E-3F46889744D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoteroConsole", "ZoteroConsole\ZoteroConsole.csproj", "{F4848EB8-97DA-452E-8C04-82F66B74D0B2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{B7FA88D8-A3B5-4FE0-8E9E-3F46889744D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7FA88D8-A3B5-4FE0-8E9E-3F46889744D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7FA88D8-A3B5-4FE0-8E9E-3F46889744D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4848EB8-97DA-452E-8C04-82F66B74D0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4848EB8-97DA-452E-8C04-82F66B74D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4848EB8-97DA-452E-8C04-82F66B74D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4848EB8-97DA-452E-8C04-82F66B74D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

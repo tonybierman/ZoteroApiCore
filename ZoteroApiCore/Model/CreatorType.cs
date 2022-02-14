@@ -14,6 +14,7 @@ namespace ZoteroApiCore.Model
         Editor,
         SeriesEditor,
         Translator,
-        ReviewedAuthor
+        ReviewedAuthor,
+        Contributor
     };
 }
